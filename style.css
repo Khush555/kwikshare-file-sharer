@@ -286,8 +286,7 @@ p{
     .icon-container .logo{
         top:-120px;
     }
-  body{
+    body{
         flex-direction: column;
-        overflow-y: scroll;
     }
 }
