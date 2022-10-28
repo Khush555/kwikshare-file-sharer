@@ -288,5 +288,6 @@ p{
     }
     body{
         flex-direction: column;
+        overflow-y: scroll;
     }
 }
