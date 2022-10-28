@@ -40,12 +40,10 @@ body{
     flex-direction: row;
 }
 .upload-container{
-    overflow-y: scroll;
     background: var(--dark-blue);
     border-radius: 25px;
     box-shadow: 0px 20px 20px #0000004a;
-    
-}
+ }
 
 .drop-zone{
     width: var(--container-width);
@@ -290,5 +288,8 @@ p{
     }
     body{
         flex-direction: column;
+    }
+    .upload-container{
+      overflow-y: scroll;
     }
 }
